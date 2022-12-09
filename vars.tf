@@ -21,7 +21,7 @@ variable "security_group" {
 
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
-  default     = "Aashutosh"
+  default     = "web_instance"
 }
 
 variable "ami_id" {
