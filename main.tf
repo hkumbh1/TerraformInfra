@@ -94,7 +94,7 @@ resource "aws_security_group" "web_sg" {
 
 # Create instance 
 resource "aws_instance" "web_instance" {
-  ami           = "ami-0533f2ba8a1995cf9"
+  ami           = "ami-074dc0a6f6c764218"
   instance_type = "t2.micro"
   key_name      = "jenkins-slave"
 
