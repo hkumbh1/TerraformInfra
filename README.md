@@ -1,2 +1,2 @@
-# This Repo contains Terraform code and Jenkinsfile to create Infrastructure [Ec2 instance in AWS cloud]
+# This Repo contains Terraform code to create Infrastructure [Ec2 instance in AWS cloud]
 
