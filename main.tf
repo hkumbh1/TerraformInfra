@@ -68,7 +68,7 @@ resource "aws_route_table_association" "public_1_rt_a" {
 
 # Create security group 
 resource "aws_security_group" "web_sg" {
-  name   = "HTTP and SSH"
+  name   = var.security_group
   vpc_id = aws_vpc.my_vpc.id
 
   ingress {
