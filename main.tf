@@ -1,6 +1,5 @@
 provider "aws" {
-  profile = "default"
-  region  = "ap-south-1"
+  region = var.aws_region
 }
 
 # Create VPC
