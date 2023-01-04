@@ -96,7 +96,6 @@ resource "aws_security_group" "web_sg" {
 resource "aws_instance" "web_instance" {
   ami           = "ami-074dc0a6f6c764218"
   instance_type = "t2.micro"
-  key_name      = "jenkins-slave"
 
   subnet_id                   = aws_subnet.my_private_subnet.id
   vpc_security_group_ids      = [aws_security_group.web_sg.id]
